@@ -3,7 +3,7 @@ version: '2'
 services:
   application:
     build: .
-    image: nutrion:latest
+    image: nutrition:latest
     ports:
       - "3000:3000"
     volumes:
